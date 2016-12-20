@@ -1,13 +1,23 @@
 trynus passeggiate
 
 
-	1 nuova passeggiata ogni giorno
-	2 storico di passeggiate fatte
+	1 nuova passeggiata ogni giorno ( do in input quanti giorni sto o sol su richiesta? meglio solo su richiesta)
+	2 storico di passeggiate fatte (associando a una città, s ci torno magari vogio rifare le paseggiate[sistema di valutazione paseggiate(easy) o semplicemnte vedo 	   tramite gps + algoritmo se han fatto tutta la paseggiata se se ne sono andati a far altre cose ecc (hard)]
 	3 calcolo passeggiate in base a preferenze (magari dopo sta cosa prior 2)
 	4 integrazione smart watch per indicazione dove svoltare (prior 1)
 	5 calcolo passggiate in base a valutazione utente (prior 3)
+	6 calcolo in base a luoghi di interesse da visitare (prior 0) l'idea e di far visitare tutti i luoghi di interesse di una citta per farla conoscere. (ALGORITMO)
+	7 fare un opzione per chi soggirna fuori città (del tipo dai 2 punti di partenza e usi maps per calcolare anche il tempo per arrivare in città prior 0)
+	8 sarebbe da fare che le paseggiate portano a ristoranti/bar/discotece/musei oppure circolo a posizione di partenza (prior 0/1) 	
+	9 creare paseggiate non automaticamente ma dagli utenti, possibile anche che metti il servizio vai a farti la paseggiata e lui capisce il percorso da solo, 		  sarebbe top kek	
+	10 specificare radius per il calcolo dei percorsi(potrebbe aggiungere inutile complessità)-
+	11 paseggiata calcolata da dove sei
 	
-
 Per calolare paseggiate: 
 
+	waypoints da google maps api
+	INPUT:Punto di partenza (in base a dove ti trovi col gps, oppure specificato dall' utente)
+	INPUT:Quanto si vuole stare fuori ( delle fascie, da 10 minuti a 1/2/3/n??? ora)
+	INPUT: se si vuole tornare a casa o visitare musei andare a mangiare andare in discoteca o simili oppure visitare musei(mi servono info per far sta roba??   		PROBLEMA 1) se si vuole arrivare in posti fighi allora serve uno altro INPUT: scegliere che luogo.(posso dividere per tipo[disco/bar/risto/musei_storici]
+	
 	
